@@ -27,13 +27,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Select hand configuration */
 
 #define MASTER_LEFT
-// #define MASTER_RIGHT
+//#define MASTER_RIGHT
 // #define EE_HANDS
 
 // Underglow
-/*
+
 #undef RGBLED_NUM
-#define RGBLED_NUM 14    // Number of LEDs
+#define RGBLED_NUM 4    // Number of LEDs
 #define RGBLIGHT_ANIMATIONS
 #define RGBLIGHT_SLEEP
-*/
+
+#define RGBLIGHT_EFFECT_RGB_TEST
+

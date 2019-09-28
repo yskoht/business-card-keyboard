@@ -72,4 +72,4 @@ SLEEP_LED_ENABLE = no    # Breathing sleep LED during USB suspend
 
 CUSTOM_MATRIX = yes
 
-DEFAULT_FOLDER = pakbd/rev3
+DEFAULT_FOLDER = business_card_keyboard/rev1

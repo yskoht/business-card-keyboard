@@ -2,7 +2,7 @@
 Copyright 2012 Jun Wako <wakojun@gmail.com>
 Copyright 2015 Jack Humbert
 Copyright 2017 F_YUUCHI
-Copyright 2018 yskoht
+Copyright 2019 yskoht
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -25,25 +25,22 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0xFEED
-#define PRODUCT_ID      0x9274
+#define PRODUCT_ID      0x9275
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    yskoht
-#define PRODUCT         pakbd
-#define DESCRIPTION     pakbd
+#define PRODUCT         business-card-keyboard
+#define DESCRIPTION     business-card_keyboard
 
 /* key matrix size */
 // Rows are doubled-up
-#define MATRIX_ROWS 10
-//#define MATRIX_ROWS 8
-#define MATRIX_COLS 8
+#define MATRIX_ROWS 4
+#define MATRIX_COLS 2
 
 // wiring of each half
-#if MATRIX_ROWS == 10
-    #define MATRIX_ROW_PINS { D4, C6, D7, E6, B4 }
-#else
-    #define MATRIX_ROW_PINS { C6, D7, E6, B4 }
-#endif
-#define MATRIX_COL_PINS { F4, F5, F6, F7, B1, B3, B2, B6 }
+#define MATRIX_ROW_PINS { D4, C6 }
+#define MATRIX_COL_PINS { F4, F5 }
+
+#define RGB_DI_PIN D3
 
 #define CATERINA_BOOTLOADER
 

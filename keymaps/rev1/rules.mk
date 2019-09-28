@@ -4,7 +4,7 @@
 #   the appropriate keymap folder that will get included automatically
 #
 
-RGBLIGHT_ENABLE = no
+RGBLIGHT_ENABLE = yes
 
 BOOTMAGIC_ENABLE = no       # Virtual DIP switch configuration(+1000)
 MOUSEKEY_ENABLE = no       # Mouse keys(+4700)
